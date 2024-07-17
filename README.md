@@ -10,6 +10,7 @@ predictability of future lab tests. This mechanism differentiates between tests 
 critical insights and those that are redundant. Unnecessary tests, which often replicate
 information from previous tests, contribute little value to monitoring patient
 condition changes due to their predictable results.
+
 The concept of “predictability” under the “selective” mechanism is akin to
 students selecting exam topics based on their difficulty. Consider two students preparing
 for an exam with five distinct and unrelated topics, where they must choose only two
@@ -18,6 +19,7 @@ strategically focuses on the easier topics. Analogously, student B will likely p
 better by concentrating on topics with a higher chance of success. Similarly, my study
 employed selective predictions to focus on lab tests that can be predicted with high
 assurance, thereby enhancing overall prediction accuracy.
+
 The “selective” mechanism employs a selector that excludes tests that the model
 “disagrees to predict” (i.e., unpredictable tests) due to the underlying difficulty in
 estimating their results, focusing instead on those that the model “agrees to predict” (i.e.,
@@ -27,6 +29,7 @@ easily estimated by the model. For example, future lab tests are predictable bec
 past observations do not significantly change over time, and there is no noise in the
 records. The operation of this model involves a user-defined threshold that determines the
 categorization of predictable versus unpredictable tests.
+
 Practically, the model’s ability to select lab tests not only optimizes the testing
 process but also enhances patient safety. By obtaining high accuracy in the tests the
 model selects, the model can minimize the risk of misclassification and reduce potential
