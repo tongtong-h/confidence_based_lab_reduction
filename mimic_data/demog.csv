@@ -1,0 +1,4 @@
+icustay_id,gender,admission_age,ethnicity_grouped
+100,M,45,black
+101,M,87,white
+102,F,67,asian
